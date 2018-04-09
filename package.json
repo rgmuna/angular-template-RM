@@ -1,0 +1,28 @@
+{
+  "name": "angular-template",
+  "version": "1.0.0",
+  "description": "\"# angular-template-RM\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgmuna/angular-template-RM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgmuna/angular-template-RM/issues"
+  },
+  "homepage": "https://github.com/rgmuna/angular-template-RM#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "sass": "^1.1.1"
+  },
+  "dependencies": {
+    "angular-ui-bootstrap": "^2.5.6"
+  }
+}
