@@ -9,4 +9,4 @@ My personal basic environment setup for making AngularJS web apps.
 * [UI-Router] (https://ui-router.github.io/ng1/) - State routing for AngularJS
 * [SASS](https://sass-lang.com/) - CSS preprocessor
 * [Gulp](https://gulpjs.com/) - Workflow automation used for processing scss and and automatic browser reloading
-* [NPM](https://www.npmjs.com/) - Package manager 
+* [NPM](https://www.npmjs.com/) - Package manager  
