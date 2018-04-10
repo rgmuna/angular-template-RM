@@ -7,7 +7,6 @@ var templateApp = angular.module('templateApp', [
 
 templateApp.controller('TemplateCtrl', ['$scope', function($scope) {
   $scope.isNavCollapsed = true;
-  $scope.isCollapsed = false;
-  $scope.isCollapsedHorizontal = false;
+
 
 }]);
