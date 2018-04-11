@@ -5,6 +5,7 @@ My personal basic environment setup for making AngularJS web apps. This template
 * Styling via UI-Bootstrap and SASS
 * Package management via NPM
 * Preprocessing and automatic browser reloading via gulp
+* Testing via Chai, Mocha and Protractor
 
 ## Getting Started
 
@@ -27,6 +28,21 @@ Once the dependencies are installed, start gulp in your command line. This will 
 ```
 $ gulp
 ```
+
+## Running Tests
+To run protractor tests, start webdriver in a new tab of your terminal while gulp is still running.
+
+```
+$ webdriver-manager start
+```
+
+Open an new tab in your terminal and start the confi file for your test.
+
+```
+$ protractor test/conf.js
+```
+
+This will run the spec files you have stored in the test folder.
 
 ## Built With
 
