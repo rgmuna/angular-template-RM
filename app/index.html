@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr"  ng-app="templateApp">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>AngularJS Template</title>
 
     <!-- =========open graph items========= -->
     <!-- <meta property="og:image" content="">
@@ -13,26 +13,26 @@
 
     <!-- ui bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <link href="./css/style.css" rel="stylesheet">
 
   </head>
   <body ng-controller="TemplateCtrl">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 text-center jumbotron">
-          Welcome to my angularJS template.
 
+    <!-- nav bar custom directive -->
+    <template-nav></template-nav>
 
-
-        </div>
-      </div>
+    <!-- main views controlled by UI-router -->
+    <div ui-view>
     </div>
 
+    <!-- scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/routes.js"></script>
+    <script src="./js/directives/nav_directive.js"></script>
   </body>
 </html>
